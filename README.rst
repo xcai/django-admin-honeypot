@@ -1,5 +1,5 @@
 =====================
-django-admin-honeypot
+django-admin-honeypot2
 =====================
 
 .. image:: https://travis-ci.org/dmpayton/django-admin-honeypot.svg?branch=develop
@@ -33,7 +33,7 @@ tl;dr
 
 * Install django-admin-honeypot from PyPI::
 
-        pip install django-admin-honeypot
+        pip install django-admin-honeypot2
 
 * Add ``admin_honeypot`` to ``INSTALLED_APPS``
 * Update your urls.py:
