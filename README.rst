@@ -19,7 +19,7 @@ django-admin-honeypot2
 admins of attempted unauthorized access. This app was inspired by discussion
 in and around Paul McMillan's security talk at DjangoCon 2011.
 
-* **Author**: `Derek Payton <http://dmpayton.com/>`_
+* **Author**: `xcai <https://github.com/xcai/django-admin-honeypot>`_
 * **Version**: 1.1.0
 * **License**: MIT
 
