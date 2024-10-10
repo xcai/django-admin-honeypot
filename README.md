@@ -1,5 +1,9 @@
 django-admin-honeypot-2024
 ==========================
+![PyPI - Version](https://img.shields.io/pypi/v/django-admin-honeypot-2024)
+![PyPI - Downloads](https://img.shields.io/pypi/dw/django-admin-honeypot-2024)
+![GitHub Repo stars](https://img.shields.io/github/stars/xcai/django-admin-honeypot)
+
 
 **django-admin-honeypot-2024** is a fake Django admin login screen to log and notify
 admins of attempted unauthorized access. This app was inspired by discussion
