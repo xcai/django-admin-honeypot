@@ -3,7 +3,8 @@ django-admin-honeypot-2024
 
 **django-admin-honeypot-2024** is a fake Django admin login screen to log and notify
 admins of attempted unauthorized access. This app was inspired by discussion
-in and around Paul McMillan's security talk at DjangoCon 2011.
+in and around Paul McMillan's security talk at DjangoCon 2011.   
+支持Django 4.2版本。（原项目会报错）
 
 * **Author**: [xcai](https://github.com/xcai/django-admin-honeypot)
 * **Version**: 1.1.0

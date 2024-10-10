@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-import sys
+import codecs
 from admin_honeypot import __version__, __description__, __license__
 
 try:
@@ -7,11 +7,15 @@ try:
 except ImportError:
     from distutils.core import setup, find_packages
 
+def read_me(filename):
+    return codecs.open(filename, encoding='utf-8').read()
+
 setup(
     name='django-admin-honeypot-2024',
     version=__version__,
     description=__description__,
-    long_description=open('./README.rst', 'r').read(),
+    long_description=read_me('README.md'),
+    long_description_content_type='text/markdown',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Framework :: Django',
@@ -43,5 +47,6 @@ setup(
     zip_safe=False,
     install_requires=[
         'django-ipware',
-    ]
+    ],
+    python_requires='>=3',
 )
