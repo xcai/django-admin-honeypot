@@ -8,7 +8,7 @@ except ImportError:
     from distutils.core import setup, find_packages
 
 setup(
-    name='django-admin-honeypot2',
+    name='django-admin-honeypot-2024',
     version=__version__,
     description=__description__,
     long_description=open('./README.rst', 'r').read(),
